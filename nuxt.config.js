@@ -6,16 +6,16 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - RPG Schedule',
-    title: 'RPG Schedule',
+    titleTemplate: '%s - CHAOS Schedule',
+    title: 'CHAOS Schedule',
     meta: [
-      { property: "og:title", content: "RPG Schedule" },
+      { property: "og:title", content: "CHAOS Schedule" },
       { property: "og:description", content: "A Discord bot designed for scheduling RPG games with automated signup, rescheduling, and RSS." },
-      { property: "og:image", content: `https://www.rpg-schedule.com/images/social-logo.png` },
-      { property: "og:url", content: `https://www.rpg-schedule.com/` },
-      { name: "twitter:title", content: "RPG SChedule" },
+      { property: "og:image", content: `https://schedule.chaos-cloud.de/images/social-logo.png` },
+      { property: "og:url", content: `https://schedule.chaos-cloud.de/` },
+      { name: "twitter:title", content: "CHAOS Schedule" },
       { name: "twitter:description", content: " A Discord bot designed for scheduling RPG games with automated signup, rescheduling, and RSS." },
-      { name: "twitter:image", content: `https://www.rpg-schedule.com/images/social-logo.png` },
+      { name: "twitter:image", content: `https://schedule.chaos-cloud.de/images/social-logo.png` },
       { name: "twitter:card", content: "summary_large_image" },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -67,8 +67,8 @@ module.exports = {
   ],
   pwa: {
     manifest: {
-      name: "RPG Schedule",
-      short_name: "RPG Schedule",
+      name: "CHAOS Schedule",
+      short_name: "CHAOS Schedule",
       display: "standalone",
       orientation: "portrait",
       lang: "en",

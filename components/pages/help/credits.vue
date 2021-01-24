@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <h4 class="mb-3">
-      <a href="https://www.mattdekok.dev/" target="_blank">My Website</a>
+      <a href="https://www.mattdekok.dev/" target="_blank">Developers Website</a>
     </h4>
     <h4>Patrons/Donors</h4>
     <ul class="mb-3">

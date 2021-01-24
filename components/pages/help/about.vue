@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <p>The bot and API layer are deployed from Github to AWS Elastic Beanstalk as a Node.js and discord.js application with MongoDB for data storage.</p>
-    <p>The website is deployed from Github to AWS Elastic Beanstalk as a Nuxt.js web app that communicates with the API layer over web requests and web sockets.</p>
+    <p>The bot and API layer are deployed from Github to a debian-VM as a Node.js and discord.js application with MongoDB for data storage.</p>
+    <p>The website is deployed from Github to a debian-VM as a Nuxt.js web app that communicates with the API layer over web requests and web sockets.</p>
 
     <h4>
       Want to contribute?
@@ -13,16 +13,12 @@
       |
       <a href="/r/githubUI" target="_blank" style="white-space: nowrap;">Github (UI)</a>
       |
-      <a href="/r/donate" target="_blank" style="white-space: nowrap;">Patreon</a>
-      |
-      <a href="/r/paypal" target="_blank" style="white-space: nowrap;">PayPal</a>
-      |
-      <a href="/r/cashapp" target="_blank" style="white-space: nowrap;">Cash App</a>
+      <a href="/r/donate" target="_blank" style="white-space: nowrap;">Patreon (of the developer, not the hoster)</a>
     </h4>
     <h4 class="mb-4">
       Need assistance?
       <span style="white-space: nowrap;">
-        Join my
+        Join the RPG-Schedule 
         <a href="https://discord.gg/mazZEe3" target="_blank">Discord server</a>.
       </span>
     </h4>
