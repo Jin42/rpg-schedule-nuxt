@@ -178,6 +178,7 @@
     "RESCHEDULE_MODE_UPDATED": "La modalità di riprogrammazione è stata aggiornata",
     "EVENTS_TITLE": "Giochi Prossimi su :SERVER entro il prossimo :TIMEFRAME",
     "EVENTS_NONE": "Non ci sono giochi all'interno della cornice di tempo specificato.",
+    "PUBLICTT": "Public timetable",
     "desc": {
       "SERVER_COMMAND": "Questo comando funzionerà solo in un server",
       "HELP": "Mostra questa finestra di aiuto",
@@ -208,6 +209,7 @@
       "TOGGLE_DROP_OUT": "Abilita/disabilita la possibilità per i giocatori di abbandonare",
       "LANG": "Imposta la lingua del bot. Supportate:",
       "RESCHEDULE_MODE": "Opzioni: `repost` (impostazione predefinita, crea un nuovo annuncio),` update` (aggiorna l'annuncio originale)",
+      "PUBLICTT": "Should the timetable be publicly visible",
       "BOT_PERMISSIONS": "Mostra quali autorizzazioni manca il bot nel canale desginated"
     }
   },

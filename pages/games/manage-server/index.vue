@@ -186,6 +186,23 @@
                           :rules="[v => parseInt(v) <= guild.config.pruneIntEvents, v => parseInt(v) >= 2, v => parseInt(v) <= 14]"
                         ></v-text-field>
                       </v-list-item>
+
+                      <v-divider class="my-3" />
+
+                      <v-list-item @click="guild.config.publicTimeTable = !guild.config.publicTimeTable">
+                        <v-list-item-action>
+                          <v-checkbox
+                            v-model="guild.config.publicTimeTable"
+                            color="discord"
+                            @click.stop="guild.config.publicTimeTable = !guild.config.publicTimeTable"
+                          ></v-checkbox>
+                        </v-list-item-action>
+
+                        <v-list-item-content>
+                          <v-list-item-title>{{lang.config.PUBLICTT}}</v-list-item-title>
+                          <v-list-item-subtitle>{{lang.config.desc.PUBLICTT}}</v-list-item-subtitle>
+                        </v-list-item-content>
+                      </v-list-item>
                     </v-list>
                   </v-tab-item>
 

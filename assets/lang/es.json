@@ -180,6 +180,7 @@
     "RESCHEDULE_MODE_UPDATED": "Modo de cambiar fecha en el clanedario se ha actualizado",
     "EVENTS_TITLE": "Próximos juegos en :SERVER dentro de la siguiente :TIMEFRAME",
     "EVENTS_NONE": "No hay juegos dentro del marco de tiempo especificado.",
+    "PUBLICTT": "Public timetable",
     "desc": {
       "SERVER_COMMAND": "Este comando solo funcionara en el server",
       "HELP": "Abrira una ventana con ayuda",
@@ -210,6 +211,7 @@
       "TOGGLE_DROP_OUT": "Activa/Desactiva la opcion a los jugadores de desconectarse",
       "LANG": "Pon el lenguaje del bot. Supported:",
       "RESCHEDULE_MODE": "Options: `repost` (default, crea u nuevo anuncio), `update` (actualiza el post original)",
+      "PUBLICTT": "Should the timetable be publicly visible",
       "BOT_PERMISSIONS": "Muestra qué permisos falta el bot en el canal designado"
     }
   },

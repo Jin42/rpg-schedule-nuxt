@@ -180,6 +180,7 @@
     "RESCHEDULE_MODE_UPDATED": "Terminverschiebungsmodus wurde aktualisiert",
     "EVENTS_TITLE": "Die nächsten Spiele :SERVER innerhalb der nächsten :TIMEFRAME",
     "EVENTS_NONE": "Keine Spiele innerhalb der vorgegebenen Zeit.",
+    "PUBLICTT": "Öffentlicher Zeitplan",
     "desc": {
       "SERVER_COMMAND": "Dieser Befehl wird nur auf dem Server funktionieren.",
       "HELP": "Zeige dieses Hilfefenster an.",
@@ -210,6 +211,7 @@
       "TOGGLE_DROP_OUT": "Aktivieren/Deaktivieren, ob sich Spieler austragen dürfen.",
       "LANG": "Wähle die Sprache des Bots. Unterstützt:",
       "RESCHEDULE_MODE": "Optionen: `repost` (standard, erstellt einen neuen Ankündigungsbeitrag), `update` (aktualisiert den originalen Ankündigungsbeitrag)",
+      "PUBLICTT": "Should the timetable be publicly visible",
       "BOT_PERMISSIONS": "Zeigt an, welche Berechtigungen dem Bot im desginierten Kanal fehlen"
     }
   },

@@ -180,6 +180,7 @@
     "RESCHEDULE_MODE_UPDATED": "Le mode reprogrammation a été mis à jour",
     "EVENTS_TITLE": "Jeux à venir sur :SERVER dans le prochain :TIMEFRAME",
     "EVENTS_NONE": "Pas de jeux dans le laps de temps spécifié.",
+    "PUBLICTT": "Public timetable",
     "desc": {
       "SERVER_COMMAND": "Cette commande ne fonctionnera que sur un serveur",
       "HELP": "Afficher cette fenêtre d'aide",
@@ -210,6 +211,7 @@
       "TOGGLE_DROP_OUT": "Activer / désactiver la possibilité pour les joueurs de se désinscrire",
       "LANG": "Définissez la langue du bot. Prise en charge:",
       "RESCHEDULE_MODE": "Options: `repost` (par défaut, crée un nouveau message d'annonce), `update` (met à jour le message d'annonce d'origine)",
+      "PUBLICTT": "Should the timetable be publicly visible",
       "BOT_PERMISSIONS": "Montre quelles autorisations le bot manque dans le canal désigné"
     }
   },
