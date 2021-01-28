@@ -4,7 +4,7 @@
       <v-progress-circular :size="100" :width="7" color="discord" indeterminate></v-progress-circular>
     </v-flex>
   </v-app>
-  <v-container v-else d-flex flex-column align-center style="height: 100%;">
+  <v-container v-else d-flex flex-column align-center style="height: 30%;">
     <v-row justify="center">
       <v-col cols="6" class="text-right">
         <v-btn
@@ -22,8 +22,8 @@
         <h1>{{ guildName }}</h1>
       </v-col>
     </v-row>
-    <v-row dense>
-      <v-col v-for="day in output" v-bind:key="day.date" justify="center" 
+    <v-row dense justify="center" class="day-row">
+      <v-col v-for="day in output" v-bind:key="day.date" 
             cols="12"
             sm="12"
             md="6"
@@ -195,14 +195,6 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  font-size: 64px;
-}
-h1 img {
-  height: 264px;
-  margin-top: -10px;
-}
-
 h3 {
   text-align: center;
   padding-bottom: 12px;
@@ -223,6 +215,7 @@ h3 {
   border: 3px line;
   padding-bottom: 6px;
   margin-bottom: 12px;
+  table-layout: fixed;
 }
 
 .day-div {
@@ -230,24 +223,10 @@ h3 {
   padding: 12px;
   text-align: center;
   border-radius: 10px;
+width: 100%;
 }
 
-@media (max-width: 500px) {
-  h1 {
-    font-size: 48px;
-  }
-  h1 img {
-    margin-top: -8px;
-  }
-}
-
-@media (max-width: 400px) {
-  h1 {
-    max-height: 200px;
-    font-size: 32px;
-  }
-  h1 img {
-    margin-top: -6px;
-  }
+.day-row {
+  width: 100%;
 }
 </style>
