@@ -33,7 +33,7 @@
         <div class="day-div">
           <center>
             <h3>{{ day.date }}</h3>
-            <table border=1 class="day-table">
+            <table border=1 class="day-table" width="100%">
               <thead>
                 <tr>
                   <th>TIME</th>
@@ -46,7 +46,7 @@
                 <tr v-for="game in day.games">
                   <td>{{ game.time }}</td>
                   <td>{{ game.duration }}</td>
-                  <td>{{ game.title }}</td>
+                  <td><img v-if="game.image" :src=game.image width="100%"/><br v-if="game.image"/>{{ game.title }}</td>
                   <td>{{ game.players }}</td>
                 </tr>
               </tbody>
@@ -137,6 +137,10 @@ export default {
                 tableGame.duration = game.runtime + " hours";
                 tableGame.title = game.name;
                 tableGame.players = game.players + "/" + game.maxPlayers;
+                if (game.gameImage)
+                  tableGame.image = game.gameImage;
+                if (game.thumbnail)
+                  tableGame.image = game.thumbnail;
                 dayObject.games.push(tableGame);
 
               });
