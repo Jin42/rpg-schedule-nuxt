@@ -219,7 +219,7 @@ h3 {
   border: 3px line;
   padding-bottom: 6px;
   margin-bottom: 12px;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 .day-div {
