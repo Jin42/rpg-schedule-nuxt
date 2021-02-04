@@ -248,6 +248,11 @@
             <td></td>
             <td>Retrieve the link for posting games</td>
           </tr>
+          <tr>
+            <td>!schedule publictimetable</td>
+            <td></td>
+            <td>Retrieve the link for seeing the public timetable</td>
+          </tr>
         </tbody>
       </template>
     </v-simple-table>
