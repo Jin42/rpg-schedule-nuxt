@@ -181,7 +181,9 @@
     "EVENTS_TITLE": "Die nächsten Spiele :SERVER innerhalb der nächsten :TIMEFRAME",
     "EVENTS_NONE": "Keine Spiele innerhalb der vorgegebenen Zeit.",
     "PUBLICTT": "Öffentlicher Zeitplan",
+    "LINKEDGAMES": "Allow linked games",
     "desc": {
+      "LINKEDGAMES": "Allow to create games which are linked to multiple servers and to link such games to this server",
       "SERVER_COMMAND": "Dieser Befehl wird nur auf dem Server funktionieren.",
       "HELP": "Zeige dieses Hilfefenster an.",
       "LINK": "Erhalte den Link für das veröffentliche Spiel.",

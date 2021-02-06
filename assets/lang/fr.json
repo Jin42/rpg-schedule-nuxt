@@ -181,7 +181,9 @@
     "EVENTS_TITLE": "Jeux à venir sur :SERVER dans le prochain :TIMEFRAME",
     "EVENTS_NONE": "Pas de jeux dans le laps de temps spécifié.",
     "PUBLICTT": "Public timetable",
+    "LINKEDGAMES": "Allow linked games",
     "desc": {
+      "LINKEDGAMES": "Allow to create games which are linked to multiple servers and to link such games to this server",
       "SERVER_COMMAND": "Cette commande ne fonctionnera que sur un serveur",
       "HELP": "Afficher cette fenêtre d'aide",
       "LINK": "Récupérer le lien pour poster des parties",

@@ -179,7 +179,9 @@
     "EVENTS_TITLE": "Giochi Prossimi su :SERVER entro il prossimo :TIMEFRAME",
     "EVENTS_NONE": "Non ci sono giochi all'interno della cornice di tempo specificato.",
     "PUBLICTT": "Public timetable",
+    "LINKEDGAMES": "Allow linked games",
     "desc": {
+      "LINKEDGAMES": "Allow to create games which are linked to multiple servers and to link such games to this server",
       "SERVER_COMMAND": "Questo comando funzionerà solo in un server",
       "HELP": "Mostra questa finestra di aiuto",
       "LINK": "Ottieni link per postare giochi",

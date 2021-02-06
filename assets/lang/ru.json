@@ -181,7 +181,9 @@
     "EVENTS_TITLE": "Предстоящие игры на :SERVER в следующем :TIMEFRAME",
     "EVENTS_NONE": "Нет игр в течение указанного периода времени.",
     "PUBLICTT": "Public timetable",
+    "LINKEDGAMES": "Allow linked games",
     "desc": {
+      "LINKEDGAMES": "Allow to create games which are linked to multiple servers and to link such games to this server",
       "SERVER_COMMAND": "Эта комнада работает только на сервере",
       "HELP": "Отобразить это окно помощи",
       "LINK": "Запросить ссылку для публикации игр",

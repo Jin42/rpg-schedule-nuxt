@@ -181,7 +181,9 @@
     "EVENTS_TITLE": "Upcoming games on :SERVER within the next :TIMEFRAME",
     "EVENTS_NONE": "No games within the specified time frame.",
     "PUBLICTT": "Public timetable",
+    "LINKEDGAMES": "Allow linked games",
     "desc": {
+      "LINKEDGAMES": "Allow to create games which are linked to multiple servers and to link such games to this server",
       "SERVER_COMMAND": "This command will only work in a server",
       "HELP": "Display this help window",
       "LINK": "Retrieve link for posting games",

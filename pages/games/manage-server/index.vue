@@ -203,6 +203,21 @@
                           <v-list-item-subtitle>{{lang.config.desc.PUBLICTT}}</v-list-item-subtitle>
                         </v-list-item-content>
                       </v-list-item>
+
+                      <v-list-item @click="guild.config.allowLinkedGames = !guild.config.allowLinkedGames">
+                        <v-list-item-action>
+                          <v-checkbox
+                            v-model="guild.config.allowLinkedGames"
+                            color="discord"
+                            @click.stop="guild.config.allowLinkedGames = !guild.config.allowLinkedGames"
+                          ></v-checkbox>
+                        </v-list-item-action>
+
+                        <v-list-item-content>
+                          <v-list-item-title>{{lang.config.LINKEDGAMES}}</v-list-item-title>
+                          <v-list-item-subtitle>{{lang.config.desc.LINKEDGAMES}}</v-list-item-subtitle>
+                        </v-list-item-content>
+                      </v-list-item>
                     </v-list>
                   </v-tab-item>
 
