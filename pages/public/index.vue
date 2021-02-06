@@ -109,10 +109,10 @@ export default {
 	      let games = data.games;
 	      games.sort((a,b) => {
                 if (a.starttime < b.starttime) {
-                  return -1;
+                  return a.starttime == -1 ? 1 : -1;
                 }
                 if (b.starttime < a.starttime) {
-                  return 1;
+                  return b.starttime == -1 ? -1 : 1;
                 }
                 return 0;
               });
@@ -122,8 +122,16 @@ export default {
               var outData = [];
               var dayObject;
               games.forEach(game => {
-                var dateTime = new Date(game.starttime);
-                var day = this.addLeadingZero(dateTime.getDate()) + "." + this.addLeadingZero(dateTime.getMonth()+1) + "." + dateTime.getFullYear();
+                var day;
+                if (game.starttime == -1)
+                {
+                  day = "UNKNOWN DATE";
+                }
+                else
+                {
+                  var dateTime = new Date(game.starttime);
+                  day = this.addLeadingZero(dateTime.getDate()) + "." + this.addLeadingZero(dateTime.getMonth()+1) + "." + dateTime.getFullYear();
+                }
 
                 if (day !== currentDay)
                 {
@@ -133,7 +141,14 @@ export default {
                   outData.push(dayObject);
                 }
                 var tableGame = {};
-                tableGame.time = this.addLeadingZero(dateTime.getHours()) + ":" + this.addLeadingZero(dateTime.getMinutes());
+                if (game.starttime == -1)
+                {
+                  tableGame.time = "Unkown";
+                }
+                else
+                {
+                  tableGame.time = this.addLeadingZero(dateTime.getHours()) + ":" + this.addLeadingZero(dateTime.getMinutes());
+                }
                 tableGame.duration = game.runtime + " hours";
                 tableGame.title = game.name;
                 tableGame.players = game.players + "/" + game.maxPlayers;
