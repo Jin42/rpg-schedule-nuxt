@@ -22,10 +22,10 @@ const baseState = {
     inviteUrl: process.env.INVITE_URL,
     githubUIUrl: "https://github.com/Jin42/rpg-schedule-nuxt",
     githubAPIUrl: "https://github.com/Jin42/rpg-schedule",
-    paypalUrl: "https://paypal.me/Sillvva",
-    donateUrl: "https://www.patreon.com/rpg_schedule",
-    twitterUrl: "https://twitter.com/SillvvaSensei",
-    cashappUrl: "https://cash.app/$SillvvaSensei"
+    paypalUrl: "https://paypal.me/JinSane42",
+    donateUrl: "https://www.patreon.com/chaos_schedule",
+    twitterUrl: "https://twitter.com/JinSane_42",
+    cashappUrl: "https://cash.app/"
   },
   enums: {
     GameWhen: {
